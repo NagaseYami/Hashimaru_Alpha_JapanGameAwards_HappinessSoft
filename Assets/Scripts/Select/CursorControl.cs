@@ -137,7 +137,7 @@ public class CursorControl : MonoBehaviour
 		JoystickCnt++;  // カウンタ加算
 
 		// キャラクタータイプ デバッグ用
-		if(Input.GetKeyDown(KeyCode.P))
+		if(Input.GetKeyDown(KeyCode.O))
 		{
 			Debug.Log(PlayerType);
 		}

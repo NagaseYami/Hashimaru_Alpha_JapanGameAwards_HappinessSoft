@@ -88,6 +88,8 @@
     <Compile Include="Assets\Scripts\Game\Player1Controller.cs" />
     <Compile Include="Assets\Scripts\Game\Player2Controller.cs" />
     <Compile Include="Assets\Scripts\Select\CursorControl.cs" />
+    <Compile Include="Assets\Scripts\Select\SelectManager.cs" />
+    <Compile Include="Assets\Scripts\Title\TextMove.cs" />
     <Compile Include="Assets\Scripts\Title\TitleManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

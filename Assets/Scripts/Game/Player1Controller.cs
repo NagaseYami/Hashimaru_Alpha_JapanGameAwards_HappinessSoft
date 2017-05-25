@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player1Controller : MonoBehaviour {
+public class Player1Controller : MonoBehaviour
+{
 	public float RotateSpeed;
 	public float MoveSpeed;
 	public GameObject ArmL, ArmR;
 
 	private Rigidbody rb;
 
-    // Use this for initialization
-    void Start () {
+	// Use this for initialization
+	void Start()
+	{
 		rb = GetComponent<Rigidbody>();
 	}
 
@@ -29,7 +31,7 @@ public class Player1Controller : MonoBehaviour {
 		}
 
 		Vector3 TurnLeft = new Vector3(0.0f, -RotateSpeed, 0.0f);
-        Vector3 TurnRight = new Vector3(0.0f, RotateSpeed, 0.0f);
+		Vector3 TurnRight = new Vector3(0.0f, RotateSpeed, 0.0f);
 
 		Quaternion deltaRotation;
 
