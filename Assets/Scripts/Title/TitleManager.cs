@@ -17,7 +17,7 @@ public class TitleManager : MonoBehaviour
 	{
 		if(Input.GetButtonDown("Fire1"))
 		{
-			SceneManager.LoadScene("SelectScene");
+			SceneManager.LoadScene("GameScene");
 		}
 	}
 }
