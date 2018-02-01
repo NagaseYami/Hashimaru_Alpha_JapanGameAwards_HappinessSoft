@@ -1,0 +1,3 @@
+# ハシマルα版
+企画段階で制作したプロトタイプ版みたいなものです、ハシマルについてこちらを御覧ください。
+https://github.com/NagaseYami/Hashimaru_Master_JapanGameAwards_HappinessSoft
